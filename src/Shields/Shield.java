@@ -7,7 +7,7 @@ public abstract class Shield {
         return shieldRatio;
     }
 
-    private Double shieldRatio;
+    private Double shieldRatio; // cодержит коофициент, на который делится наносимый атакующим урон
 
     public Shield(Double shieldRatio) {
         this.shieldRatio = shieldRatio;

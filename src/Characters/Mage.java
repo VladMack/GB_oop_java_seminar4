@@ -18,4 +18,12 @@ public class Mage extends Warrior<Staff, MagicalShield>{
     public String toString() {
         return "Mage, " + super.toString() + ", shootDistanation= " + distance + ", mana= " + mana;
     }
+
+    public Integer getMana() {
+        return mana;
+    }
+
+    public void setMana(Integer mana) {
+        this.mana = mana;
+    }
 }
